@@ -1,0 +1,130 @@
+/* Style by Matt Pennock - Copyright 2017*/
+
+/* HTML 5 Reset */
+article, header, nav, footer {
+  display: block;
+  padding: 1em;
+}
+
+/* Alignment */
+body {
+  width: 80em;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 0em;
+}
+
+nav {
+  width: 10em;
+  float: left;
+  padding-top: 2em;
+}
+
+article {
+  width: 58em;
+  float: left;
+  line-height: 1.5;
+}
+
+footer {
+  width: 58em;
+  clear: both;
+  margin: 0 auto;
+}
+
+footer p a
+{
+  display: block;
+  text-decoration: none;
+  border-radius: 0.5em;
+  text-align: center;
+  color: #FFDC00;
+  padding: 0.5em;
+}
+
+footer p a:hover {
+  color: #001F3F;
+  background-color: #FFDC00;
+}
+
+ol li {
+  font-weight: bold;
+}
+
+/* Including Figures */
+figure {
+  width: 384px;
+  margin: auto;
+  padding: 1em;
+  border-style: dashed;
+  border-width: 1px 0px;
+  border-color: aqua;
+}
+
+figure img {
+  width: 384px;
+  height: 216px;
+  margin: 0 auto;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+/* Fancy Navigation */ 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  padding: 0.5em 0em;
+  text-decoration: none;
+  color: #FFDC00;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+a {
+  color: #FFDC00;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #7FDBFF;
+}
+
+li a:hover {
+  color: #001F3F;
+  background-color: #FFDC00;
+}
+
+.center {
+  display:block;
+  width: 355px;
+  height: 267px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* Text Colors */
+.navy   { color: #001F3F; }
+.white  { color: #FFF;    }
+.yellow { color: #FFDC00  }
+.red    { color: #FF4136; }
+.green  { color: #2ECC40; }
+.aqua   { color: #7FDBFF; }
+
+/* Background Colors */
+.bg-navy   { background-color: #001F3F; }
+.bg-white  { background-color: #FFF;    }
+.bg-yellow { background-color: #FFDC00  }
+.bg-red    { background-color: #FF4136; }
+.bg-green  { background-color: #2ECC40; }
+.bg-aqua   { background-color: #7FDBFF; }
